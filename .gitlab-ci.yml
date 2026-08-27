@@ -1,6 +1,13 @@
 stages:
+  - build
   - test
+
 hello:
+  stage: build
+  script:
+    - echo "Hello from GitLab CI/CD!"
+    - echo "Pipeline executed successfully."
+
   stage: test
   script:
     - echo "Hello from GitLab CI/CD!"
