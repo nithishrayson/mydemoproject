@@ -4,6 +4,7 @@ stages:
 
 hello:
   stage: build
+  image: 
   script:
     - echo "Hello from GitLab CI/CD!"
     - echo "Pipeline executed successfully."
